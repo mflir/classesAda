@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.r1{
+	border: 1px solid black;
+	padding: 30px;
+}
+
+#lila{
+	background-color: #A871DC;
+}
+
+#amarillo{
+	background-color: yellow;
+}
+
+#celeste{
+	background-color: #579FED;
+}
+
+
+.gris{
+	background-color: #D3D3D3;
+}
+
+.gris1{
+	background-color: #969696;
+}
+

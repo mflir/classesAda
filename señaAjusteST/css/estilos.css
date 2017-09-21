@@ -1,0 +1,57 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	margin-top: 50px;
+}
+
+.r1{
+	height: 350px;
+}
+
+.r2{
+	height: 50px;
+}
+
+.r3{
+	height: 100px;
+}
+
+.grey{
+	background-color: grey;
+}
+
+.yellow{
+	background-color: yellow;
+}
+
+.lightblue{
+	background-color: lightblue;
+}
+
+.lightgreen{
+	background-color: lightgreen;
+}
+
+.pink{
+	background-color: pink;
+}
+
+.red{
+	background-color: red;
+}
+
+.black{
+	background-color: black;
+}
+
+.blue{
+	background-color: blue;
+}
+
+.grad{
+	background: linear-gradient(to right, grey, white);
+}

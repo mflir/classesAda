@@ -1,0 +1,35 @@
+*{
+	margin: 0 auto;
+	padding:0;
+	box-sizing: border-box;
+}
+
+header{
+	width: 1300px;
+	font-size: 20px;
+	background-color: #C698BE; 
+	height: 100px;
+	text-align: center;
+}
+
+.holi{
+	height: 110px;
+}
+
+nav{
+	background-color: #C9B6B6;
+	height: 60px;
+}
+
+nav a{
+	text-decoration: none; 
+}
+
+nav a:hover{
+	font-weight: bold;
+}
+
+.inicio a:hover{
+
+}
+
