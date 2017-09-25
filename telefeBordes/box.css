@@ -1,0 +1,50 @@
+
+div{
+	width: 200px;
+	height: 200px;
+	background: yellow;
+	border: width style color;
+	/*
+	border: 5px double black;
+	border-style: double;
+	border-width: 5px;
+	border-color: black;
+	border-bottom-style: dotted;
+	border-bottom-width: 10px: */ 
+	border-radius: 50%;
+}
+
+.tarea{
+	width: 200px;
+	height: 200px;
+	border-radius:50%;
+	float: left; 
+	margin: 1px;
+	margin-top: 5px;
+}
+
+.color1{
+	background: blue;
+}
+
+.color2{
+	background: green;
+}
+
+.color3{
+	background: red;
+}
+
+
+
+
+/* styles:
+solid
+dotted
+dashed
+double
+groove
+ridge
+inset
+outset
+*/
