@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("../img/form.jpg");
+	background-size: 100%;
+
+}
+.login{
+	text-align: center;
+	margin-top: 150px;
+	font: helvetica;
+	font-size: 40px;
+	color: white;
+	font-family: 'Amatic SC', cursive;
+}
+
+legend{
+	font-size: 60px;
+	color: white;
+}
+
+button{
+	font-size: 60px;
+}
