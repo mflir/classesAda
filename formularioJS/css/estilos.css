@@ -15,7 +15,7 @@ body{
 	font: helvetica;
 	font-size: 40px;
 	color: white;
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Nunito', sans-serif;
 }
 
 legend{
@@ -26,3 +26,5 @@ legend{
 button{
 	font-size: 60px;
 }
+
+

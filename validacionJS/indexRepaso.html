@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	
+	</head>
+	<body>
+
+
+	<script>
+		
+		var i=0;
+		var seguirIterando = true;
+
+		//for(;;) iniciador infinito se usa en el servidor si quiero levantar algun dato del usuario necesito algo que se ejecute todo el tiempo y ahi me sirve 
+
+		for(){
+			alert("iteracion número: " + i);
+
+			i+=2;
+			seguirIterando =i < 10;
+
+			sleep(1);
+		}
+
+		var i=0;
+		while (1) {
+			alert("hola"); // si no le pongo condicion me hace un loop infinito
+
+			if ()
+		}
+
+
+	var i = 0;
+	var seguirIterando = true;
+
+	var str = "2";
+	var num = 2;
+
+	if (num === str){
+		alert(str + 10);
+		alert(num + 10);
+	}
+
+
+	var cadena = "soy una cadena";
+	var numeroCadena = "1999";
+	var numero = 1000;
+
+	//alert(cadena.length); me dice cuantos caracteres tiene un str
+	alert(parseInt (numeroCadena + 1)); //convierte str en num
+	alert(numero + 1);
+	altert(parseFloat(numeroCadena + 1));
+
+	for(var i=0; i < numeroCadena.length; i++){
+		alert(numeroCadena.charAt(i)); //charAt me devuelve el digito que esta en esa posicion (posicion i = 0)
+
+
+		var total=0;
+		for (var i=0; i < numeroCadena.length; i++){
+			total += parseInt(numeroCadena.charAt(i));
+		}
+
+		altert(total);
+
+	</script>
+		
+	</body>
+</html>

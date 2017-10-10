@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+<script type="text/javascript">
+
+
+var semana = [50, 35, 105, 50, 25];
+for (var i=0; i< semana.length;i++){
+console.log (semana[i]);}
+
+// sumar elementos del array
+
+var semana = [50, 35, 105, 50, 25];
+var total = 0;
+for (var i=0; i< semana.length;i++){
+total +=semana[i];
+}
+ 
+console.log (total);
+
+// hacer promedio de la semana
+
+var semana = [50, 35, 105, 50, 25];
+var total = 0;
+var promedio
+for (var i=0; i< semana.length;i++){
+total +=semana[i];
+
+promedio = total / semana.length;
+
+}
+ 
+console.log (promedio);
+
+
+// mostrar valores mayores a 50 (no la posicion)
+
+
+var semana = [50, 35, 105, 40, 25];
+for (var i=0; i< semana.length;i++){
+ if (semana[i] > 50) {
+ console.log (semana[i]);
+} else ("menor que 50")}
+
+// mostrar posicion de valores mayores que 50
+
+
+var semana = [50, 35, 105, 40, 25];
+var dias = ["lunes", "martes", "miercoles","jueves","viernes"];
+for (var i=0; i< semana.length;i++){
+if (semana [i] > 50){
+console.log(i);
+}
+}
+
+// mostrar dia y monto 
+
+
+var semana = [50, 35, 105, 40, 25];
+var dias = ["lunes", "martes", "miercoles","jueves","viernes"];
+for (var i=0; i< semana.length;i++){
+if (semana [i] > 50){
+console.log(dias[i] + ": " + semana[i]);
+}
+}
+
+
+</script>
+	
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+	<script>
+		
+	var numero="36091"
+
+	var esSegundoDigito = false;
+	var total = 0;
+
+	for (var i = numero.length - 1 ; i >= 0; i--) {
+		if(esSegundoDigito){
+			var x = parseInt(numero.charAt(i)) *2;
+
+			//if (x >= 10){
+			if (x > 9) {
+				x -= 9;
+			}
+
+			total += x;
+			//esSegundoDigito = false;
+
+		} else {
+			total += parseInt(numero.charAt(i));
+			//esSegundoDigito = true;
+		}
+
+
+		esSegundoDigito =! esSegundoDigito; //le digo que en la proxima iteracion me cambie la condicion si es true - false y si es false - true, cambia la condicion anterior y asi sucesivamente.
+	}
+
+
+
+
+
+	//VERSION FINAL
+
+
+
+	var x = parseInt(numero.charAt(i));
+
+	if (esSegundoDigito){
+		x = x *2;
+
+		if (x > 9){
+			x -= 9;
+		}
+		//esSegundoDigito = false;
+	}else{
+		//esSegundoDigito = true;
+	}
+
+	total += x;
+
+	esSegundoDigito =! esSegundoDigito;
+
+}
+
+//operador Ternario ----> alert(total % 10 === 0? "bien ahi" : "nmala");
+
+if (total % 10 == 0) {
+	alert ("bien ahi");
+} else {
+	alert("mala");
+}
+
+
+
+	</script>
+	</body>
+</html>
