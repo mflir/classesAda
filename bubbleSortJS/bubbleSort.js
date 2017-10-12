@@ -33,10 +33,10 @@ for (var i = 0; i < numeros.length; vuelta++){
 	for (var j = 0; j < numeros.length-i; j++) { //en for no va ";" porque termina el ciclo
 		
 		//si el numero es mayor a su siguiente --> intercambio!
-		if (numeros[i] > numeros [i+1]){
-			var temp = numeros[i];
-			numeros[i] = numeros[i+1];
-			numeros[i+1] = temp;
+		if (numeros[j] > numeros [j+1]){
+			var temp = numeros[j];
+			numeros[j] = numeros[j+1];
+			numeros[j+1] = temp;
 		}
 
 	}
