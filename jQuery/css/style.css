@@ -1,0 +1,25 @@
+*{
+	margin: auto;
+	box-sizing: border-box;
+
+
+}
+
+.class1{
+	margin: 5px;
+	height: 350px;
+	width: 30%;
+	float: left;
+}
+
+img{
+	height: 350px;
+	width: 300px;
+}
+
+
+.negrita{
+	color: red;
+}
+
+
