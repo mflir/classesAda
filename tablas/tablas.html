@@ -16,27 +16,38 @@
 								<th class="text-center">#</th>
 								<th>Nombre</th>
 								<th>Apellido</th>
+								<th>Editar</th>
 							</tr>
 						</thead>
-						<tr class="active">
+						<tr class="active" id="registro_1">
 							<td class="text-center">1</td>
-							<td>Pepe</td>
-							<td>Gonzalez</td>
+							<td><input type="text" id="nonbre1" class="rg1" value="hola" disabled></td>
+							<td><input type="text" id="apellido2" class="rg1" value="mundo" disabled></td>
+							<td>
+								<button class="boton" id="1">borrar</button>
+							</td>
 						</tr>
-						<tr class="info">
+						<tr class="info" id="registro_2">
 							<td class="text-center">2</td>
-							<td>Hola</td>
-							<td>Mundo</td>
+							<td><input type="text" id="nombre2" class="rg2" value="hola" disabled></td>
+							<td><input type="text" id="apellido2"class="rg2" value="mundo" disabled></td>
+							<td>
+								<button class="boton" id="2">borrar</button>
+							</td>
 						</tr>
-						<tr class="danger">
+						<tr class="danger" id="registro_3">
 							<td class="text-center">3</td>
-							<td>Hola</td>
-							<td>Mundo Mundo</td>
+							<td><input type="text" id="nombre3" class="rg3" value="mundo" disabled></td>
+							<td><input type="text" id="apellido3" class="rg3" value="mundo" disabled></td>
+							<td>
+								<button class="boton" id="3">borrar</button>
+							</td>
 						</tr>
 					</table>
 				</div>
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript" href="js/tablas.js"></script>
 </body>
 </html>
